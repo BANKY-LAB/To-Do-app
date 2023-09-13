@@ -1,0 +1,82 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(24, 3, 42);
+}
+.container{
+    width:500px;
+    padding:35px;
+    background-color: rgb(183, 200, 235);
+    margin-top: 150px;
+    border-radius: 20px;
+}
+.container h2{
+    display:flex;
+    justify-content:center;
+    color:#010124;
+}
+.input-container{
+    background-color: #fff;
+    border-radius: 25px;
+    padding:5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-container input{
+    border:none;
+    outline: none;
+    font-size: 20px;
+    padding:5px;
+    width:400px;
+    border-radius:25px;
+    color:#373778;
+}
+.input-container button{
+    border:none;
+    outline: none;
+    background-color: #373778;
+    padding:10px 25px;
+    border-radius:50px;
+    font-size: 15px;
+    color:white;
+    cursor: pointer;
+} 
+.input-container button:hover{
+    background-color: red;
+}
+
+
+
+#todo-container li{
+   padding: 5px;
+   color: #373778;
+   font-size: 20px;
+   margin-top: 5px;
+   border-bottom: 1px solid #373778;
+   list-style-type:decimal;
+   display: flex;
+   justify-content: space-between;
+}
+#todo-container li button{
+    color:red;
+    outline: none;
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+    
+    position:relative;
+    align-items: center;
+   
+    cursor: pointer;
+}
+#todo-container li button:hover{
+    background-color:red;
+    border-radius: 50%;
+    color:#fff;
+
+}
+.completed{
+    text-decoration: line-through;
+}
