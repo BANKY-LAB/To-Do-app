@@ -2,7 +2,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(24, 3, 42);
+    background-color:rgb(1, 33, 33);
 }
 .container{
     width:500px;
